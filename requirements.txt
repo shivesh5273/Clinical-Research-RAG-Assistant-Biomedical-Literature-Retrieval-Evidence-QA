@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------------------
+# Clinical Research RAG Assistant - Python dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Versions are pinned with ">=" lower bounds so the project stays installable,
+# but `pip freeze > requirements.lock.txt` is recommended once your environment
+# works, for exact reproducibility.
+# ---------------------------------------------------------------------------
+
+# --- PDF parsing -----------------------------------------------------------
+PyMuPDF>=1.24.0
+
+# --- Embeddings ------------------------------------------------------------
+# sentence-transformers pulls in torch + transformers automatically.
+sentence-transformers>=3.0.0
+
+# --- Vector search ---------------------------------------------------------
+faiss-cpu>=1.8.0
+
+# --- Numerics / data -------------------------------------------------------
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+
+# --- Application layer -----------------------------------------------------
+streamlit>=1.36.0
+python-dotenv>=1.0.0
+
+# --- Generation backend (optional at runtime) ------------------------------
+# The app runs in retrieval-only mode if this is missing or if no API key
+# is configured. It is listed here so the Anthropic path works out of the box.
+anthropic>=0.34.0
+
+# --- Notebook --------------------------------------------------------------
+jupyter>=1.0.0
+ipykernel>=6.29.0
+matplotlib>=3.8.0

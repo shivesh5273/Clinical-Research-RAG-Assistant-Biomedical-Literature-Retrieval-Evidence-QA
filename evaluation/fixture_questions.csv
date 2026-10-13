@@ -1,0 +1,13 @@
+question,expected_document,expected_page,notes
+What patient population was studied in the randomised trial?,synthetic_trial_alpha.pdf,2,"SYNTHETIC CORPUS ONLY. Ground truth is verifiable because scripts/make_test_pdfs.py places this text on this page. Page 2 = 'Methods: Study Population'."
+What intervention was administered to participants?,synthetic_trial_alpha.pdf,3,"Page 3 = 'Methods: Intervention and Comparator'."
+What comparator or control was used in the trial?,synthetic_trial_alpha.pdf,3,"Same page as the intervention description."
+What was the primary outcome of the trial?,synthetic_trial_alpha.pdf,4,"Page 4 = 'Results: Outcomes'."
+What limitations did the trial authors report?,synthetic_trial_alpha.pdf,5,"Page 5 = 'Discussion: Limitations and Future Work'."
+What future research did the trial authors suggest?,synthetic_trial_alpha.pdf,5,"Same page as the trial limitations."
+What dataset was used in the observational cohort analysis?,synthetic_cohort_beta.pdf,2,"Page 2 = 'Data Source and Cohort'."
+Which biomarkers were examined in the cohort study?,synthetic_cohort_beta.pdf,3,"Page 3 = 'Biomarkers Considered'."
+What statistical methods were used in the cohort analysis?,synthetic_cohort_beta.pdf,4,"Page 4 = 'Statistical Analysis'."
+What limitations were reported for the observational cohort?,synthetic_cohort_beta.pdf,5,"Page 5 = 'Limitations'."
+How many studies were included in the systematic review?,synthetic_review_gamma.pdf,2,"Page 2 = 'Search Strategy'."
+What was the pooled effect estimate in the systematic review?,synthetic_review_gamma.pdf,3,"Page 3 = 'Evidence Synthesis'."

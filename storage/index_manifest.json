@@ -1,0 +1,11 @@
+{
+  "n_chunks": 266,
+  "dimension": 384,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "documents": [
+    "bweir_2009_resistance_vs_aerobic_hba1c_pmc2800839.pdf",
+    "hiit_2024_low_volume_combined_aerobic_resistance_pmc11459303.pdf",
+    "impact_2022_community_structured_physical_activity_pmc9857601.pdf",
+    "raed2_2012_aerobic_vs_resistance_pmc3308269.pdf"
+  ]
+}

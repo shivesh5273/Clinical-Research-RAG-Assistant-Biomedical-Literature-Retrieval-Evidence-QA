@@ -1,0 +1,16 @@
+metric,value
+n_questions_in_file,16
+n_measured,16
+n_skipped,0
+top_k,5
+search_depth,5
+page_tolerance,0
+require_page,True
+embedding_model,sentence-transformers/all-MiniLM-L6-v2
+n_chunks_indexed,266
+n_documents_indexed,4
+recall_at_1,0.4375
+recall_at_3,0.5625
+recall_at_5,0.75
+mrr_at_5,0.5302
+n_misses,4
